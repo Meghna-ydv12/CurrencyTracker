@@ -4,10 +4,10 @@ const rateDisplay = document.getElementById('rateDisplay');
 const rateText = document.getElementById('rateText');
 const loader = document.getElementById('loader');
 
-// Replace with your real API key!
-const API_KEY = 'Z3TCZuF7S5Wnkec7PtqmhXk7blXx7V9L';
+// Replace with your real API key from the APILayer website (Fixer API)
+const API_KEY = 'TyNA2gFi99Ahh7nzngHUIVoNGCmo5tU7';
 
-// Add more currencies if you wish!
+// You can add currencies according to your will.
 const currencyOptions = ['USD', 'EUR', 'GBP', 'JPY', 'CAD', 'AUD', 'INR', 'CNY', 'CHF', 'SGD'];
 
 function populateSelects() {
