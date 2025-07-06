@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💱 Currency Tracker</title>
+  <link rel="stylesheet" href="tracker.css" />
+</head>
+<body>
+  <div class="container fade-in">
+    <h1>
+      <span class="logo">💱</span>
+      <span>Currency Tracker</span>
+    </h1>
+    <form class="selector" aria-label="Currency Selector" autocomplete="off">
+      <label for="fromCurrency" class="visually-hidden">From currency</label>
+      <select id="fromCurrency" aria-label="From currency"></select>
+      <span class="arrow" aria-hidden="true">➡️</span>
+      <label for="toCurrency" class="visually-hidden">To currency</label>
+      <select id="toCurrency" aria-label="To currency"></select>
+    </form>
+    <div id="rateDisplay" aria-live="polite">
+      <span class="loader" id="loader"></span>
+      <span id="rateText">Exchange Rate: --</span>
+    </div>
+  </div>
+  <footer>
+    <a href="https://github.com/Meghna-ydv12" target="_blank" rel="noopener">Made with love by Meghna</a>
+  </footer>
+  <script src="tracker.js"></script>
+</body>
+</html>
